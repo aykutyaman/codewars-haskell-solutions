@@ -39,6 +39,7 @@ library
       ReverseString
       TwoToOne
       GrowthOfPopulation
+      DuplicateEncoder
   other-modules:
       Paths_codewars
   hs-source-dirs:
