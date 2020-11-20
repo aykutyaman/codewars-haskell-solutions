@@ -1,5 +1,7 @@
 module Anagram where
 
+-- https://www.codewars.com/kata/523a86aa4230ebb5420001e1
+
 import Data.Function (on)
 import qualified Data.Map as Map
 
@@ -13,4 +15,4 @@ isAnagram' :: String -> String -> Bool
 isAnagram' = on (==) toMap
 
 anagrams :: String -> [String] -> [String]
-anagrams w = filter $ isAnagram w
+anagrams = filter . isAnagram
