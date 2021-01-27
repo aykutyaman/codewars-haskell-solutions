@@ -42,6 +42,7 @@ library
       DuplicateEncoder
       Anagram
       Parses
+      ParseHtmlColor
   other-modules:
       Paths_codewars
   hs-source-dirs:
